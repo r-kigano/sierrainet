@@ -90,7 +90,7 @@ nav a:hover {
   height: 100%;
   z-index: -1;
   opacity: .6;
-  background-image: url('../images/img-banner-lg.jpg');
+  background-image: url('images/img-banner-lg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
