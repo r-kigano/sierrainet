@@ -147,7 +147,7 @@ main section {
   pointer-events: none;
 }
 .modalDialog:target {
-  opacity: .1;
+  opacity: 1;
   pointer-events: auto;
 }
 .modalDialog > div {
