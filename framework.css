@@ -1,0 +1,135 @@
+h1 {
+  font-size: 3em;
+  padding: 30px 0 10px 0;
+}
+h2 {
+  font-size: 2.5em;
+  padding: 30px 0 10px 0;
+}
+h3 {
+  font-size: 2em;
+  padding: 30px 0 10px 0;
+}
+h4 {
+  font-size: 1.5em;
+  padding: 30px 0 10px 0;
+}
+.copy p {
+  line-height: 1.5em;
+  padding: 20px 0;
+}
+.copy ul {
+  list-style: disc;
+  padding: 10px 20px;
+}
+.copy ul ul {
+  list-style: circle;
+  padding: 
+}
+.copy ol {
+  list-style: upper-latin;
+  padding: 5px 20px;
+}
+.copy ol ol {
+  list-style: lower-latin;
+}
+.copy ol.roman {
+  list-style: upper-roman;
+}
+.copy ol.roman ol {
+  list-style: lower-roman;
+}
+.row {
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  box-sizing: border-box;
+}
+.row:after {
+  display: block;
+  clear: both;
+  line-height: 0;/*prevents whitespace from showing up as extre height*/
+  content: "";
+}
+
+/*---no margin between---*/
+.sixth, .fourth, .third, .half, .five_sixth, .two_third {
+  float: left;
+  box-sizing: border-box;
+}
+.sixth {
+  width: 16.66%;
+}
+.fourth {
+  width: 25%;
+}
+.third {
+  width: 33.33%;
+}
+.half {
+  width: 50%;
+}
+.two_third {
+  width: 66.6%;
+}
+.five_sixth {
+  width: 83.3%;
+}
+/*-----columns with margins------(100%-(n-1%))/n---*/
+
+.margin_row .half + .half,
+.margin_row .half + .third,
+.margin_row .half + .fourth,
+.margin_row .half + .sixth,
+.margin_row .half + .two_third,
+.margin_row .half + .five_sixth,
+.margin_row .third + .third,
+.margin_row .third + .half,
+.margin_row .third + .fourth,
+.margin_row .third + .sixth,
+.margin_row .third + .two_third,
+.margin_row .third + .five_sixth,
+.margin_row .fourth + .fourth,
+.margin_row .fourth + .half,
+.margin_row .fourth + .third,
+.margin_row .fourth + .sixth,
+.margin_row .fourth + .two_third,
+.margin_row .fourth + .five_sixth,
+.margin_row .sixth + .sixth,
+.margin_row .sixth + .half,
+.margin_row .sixth + .third,
+.margin_row .sixth + .fourth,
+.margin_row .sixth + .two_third,
+.margin_row .sixth + .five_sixth,
+.margin_row .two_third + .half,
+.margin_row .two_third + .third,
+.margin_row .two_third + .fourth,
+.margin_row .two_third + .sixth,
+.margin_row .two_third + .two_third,
+.margin_row .two_third + .five_sixth,
+.margin_row .five_sixth + .half,
+.margin_row .five_sixth + .third,
+.margin_row .five_sixth + .fourth,
+.margin_row .five_sixth + .sixth,
+.margin_row .five_sixth + .two_third,
+.margin_row .five_sixth + .five_sixth {
+  margin-left: 2%;
+}
+.margin_row .sixth {
+  width: 15%;
+}
+.margin_row .fourth {
+  width: 23.5%;
+}
+.margin_row .third {
+  width: 32%;
+}
+.margin_row .half {
+  width: 49%;
+}
+.margin_row .two_third {
+  width: 66%;
+}
+.margin_row .five_sixth {
+  width: 82.9%;
+}
+
